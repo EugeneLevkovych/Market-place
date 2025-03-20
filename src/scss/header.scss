@@ -4,33 +4,36 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
-    background-color: aquamarine;
-    padding: 33px 100px;
+    height: 12rem;
+    padding: 3.3rem 0;
 }
 
 .navigation {
     display: flex;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2;
+    color: #141414;
   
     &__logo {
-    margin-right: 110px;
+    margin-right: 11rem;
   }
   
     &__list {
     display: flex;
-    gap: 60px;
+    gap: 6rem;
   }
 }
   .shopping {
     display: flex;
-    gap: 20px;
+    gap: 2rem;
 
     &__bag {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 54px;
-        width: 54px;
+        height: 5.4rem;
+        width: 5.4rem;
         background-color: $color-blue;
         border-radius: 50%;
     }
