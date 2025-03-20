@@ -1,0 +1,86 @@
+@import '../variables.scss';
+.card {
+  padding: 2rem 2.4rem;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.08);
+  background-color: $color-white-1;
+  border-radius: 2rem;
+
+
+    &__discount-box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+
+    &__discount {
+        border-radius: 5px;
+        padding: 1rem 0;
+        width: 5.1rem;
+        height: 4rem;
+        background-color: rgba(235, 49, 49, 0.1);
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.3rem;
+        line-height: 1.53;
+        color: $color-text-discount;
+    }
+
+    &__img {
+        border-radius: 1rem;
+        width: 33.6rem;
+        height: 24rem;
+        margin-bottom: 2rem;
+    }
+   &__svg {
+        stroke: $color-blue;
+        stroke: #413dee;
+        fill: $color-blue;
+        fill: #413dee;
+        background: $color-blue-light;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+    }
+
+    &__devices-box {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    &__devices-link {
+        font-weight: 500;
+        font-size: 1.3rem;
+        line-height: 1.53;
+        color: $color-blue;
+        padding: 1rem;
+        text-align: center;
+        background-color: $color-blue-light;
+    }
+
+    &__price {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2;
+        color: $color-text-1;
+    }
+
+    &__name {
+        font-weight: 400;
+        font-size: 2.4rem;
+        line-height: 1.33;
+        color: $color-text-3;
+        padding-bottom: 3rem;
+    }
+
+    &__add {
+        font-weight: 500;
+        font-size: $default-font-size;
+        line-height: 2;
+        text-align: center;
+        color: $color-text-4;
+        padding: 1.4rem 4.6rem 1.4rem 1.7rem;
+       
+    }
+}

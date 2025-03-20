@@ -1,12 +1,16 @@
 
-/* Common styles */
+//  Common styles 
 @import url('./scss/reset.scss');
 @import url('./scss/base.scss');
 @import url('./scss/container.scss');
 @import url('./scss/animations.scss');
 @import url('./scss/variables.scss');
 
-/* Sections style */
+// components
+@import url('./scss/components/heading.scss');
+@import url('./scss/components/card.scss');
+
+//  Sections style 
 @import url('./scss/header.scss');
 @import url('./scss/hero.scss');
 @import url('./scss/our-top-deals.scss');

@@ -3,21 +3,21 @@
 .section-hero {
     height: 70rem;
     padding: 5rem 0;
-   background-image: url(../img/hero-img/hero@2x.webp);
+    background-image: url(../img/hero-img/hero@2x.webp);
     background-position: right;
     background-size: 50%;
     background-repeat:no-repeat;
 }
 
-.content-box {
+.hero-content-box {
     padding: 19.6rem 0;
 }
 
-.heading {
+.hero-heading {
     font-weight: 700;
     font-size: $default-font-size;
     line-height: 2.5;
-    color: $text-color-1;
+    color: $color-text-1;
     margin-bottom: 2.4rem;
 
       &__span {
@@ -27,6 +27,6 @@
         font-weight: 500;
         font-size: 6.2rem;
         line-height: 1.25;
-        color:$text-color-1;
+        color:$color-text-1;
     }
 }
