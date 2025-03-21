@@ -29,7 +29,8 @@
         padding: 2.3rem .8rem 2.3rem 3.8rem;
         border-radius: 10rem;
         border: none;
-        width: 520px;
+        max-width: 52rem;
+        width: 100%;
         height: 75px;
         &::placeholder {
             font-weight: 400;
@@ -45,10 +46,18 @@
         top: 50%;
         transform: translateY(-50%);
         border-radius: 10rem;
-        padding: 2rem 5.5rem;
         width: 15rem;
         height: 6rem;
         background-color: $color-blue;
         color: $color-white-1;
+        border: none;
+        font-weight: 500;
+        font-size: $default-font-size;
+        line-height: 2;
+        
+        &:hover,
+        &:active {
+            background-color: $color-blue-hover;
+        }
     }
 }
