@@ -1,1 +1,11 @@
 @import './variables.scss';
+.section-our-top-deals {
+    background-color: $color-white-1;
+
+}
+
+.cards-list {
+    display: flex;
+    gap: 4rem;
+    
+}
