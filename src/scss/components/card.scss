@@ -1,7 +1,5 @@
 @import '../variables.scss';
 
-
-
 .card {
   width: calc((100% - 8rem) / 3);
   padding: 2rem 2.4rem;
@@ -35,15 +33,20 @@
         height: 24rem;
         margin-bottom: 2rem;
     }
-   &__svg {
-        stroke: $color-blue;
-        stroke: #413dee;
-        fill: $color-blue;
-        fill: #413dee;
+
+    &__heart-box {
         background-color: $color-blue-light;
         height: 4rem;
         width: 4rem;
         border-radius: 50%;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+   &__svg {
+        stroke: $color-blue;
+        fill: transparent;
+      
     }
 
     &__devices-box {
