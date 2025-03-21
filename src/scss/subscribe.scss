@@ -1,0 +1,21 @@
+@import './variables.scss';
+.section-subscribe {
+    padding: 9.8rem 0;
+    background-color: $color-blue;
+    color: $color-white-1;
+
+    &__heading {
+        font-weight: 400;
+        font-size: 5rem;
+        line-height: 1.4;
+        text-align: center;
+       
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+    }
+}
