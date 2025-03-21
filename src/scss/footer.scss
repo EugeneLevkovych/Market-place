@@ -1,0 +1,56 @@
+@import './variables.scss';
+
+
+.footer {
+    padding: 6.3rem 0 8.6rem;
+
+    &__container {
+        display: flex;
+        gap: 10.4rem;
+    }
+
+    &__logo-box {
+        height: 11.1rem;
+        width: 29rem;
+    }
+
+    &__text-heading {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 2rem;
+        color: $color-text-1;
+        margin-bottom: 2.5rem;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 1.87;
+        color: rgba(20, 20, 20, 0.9);
+    }
+
+    &__link-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__social-links-box {
+        display: flex;
+        gap: 2rem
+    }
+
+    &__social-link {
+        text-align: center;
+        background-color: $color-blue-light;
+        height: 4rem;
+        width: 4rem;
+        padding: 1.2rem;
+        border-radius: 50%;
+    }
+
+
+    &__social-link-svg {
+        fill: $color-blue;
+        
+    }
+}

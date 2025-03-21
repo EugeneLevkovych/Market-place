@@ -36,6 +36,12 @@
         width: 5.4rem;
         background-color: $color-blue;
         border-radius: 50%;
+        transition: all .3s;
+
+        &:hover,
+        &:active {
+            background-color: $color-text-discount;
+        }
     }
 
     &__bag-icon {
