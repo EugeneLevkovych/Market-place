@@ -1,0 +1,12 @@
+@mixin hover {   
+    &:hover {
+        background-color:$color-blue-hover;
+    }
+}
+
+@mixin active-focus {
+   &:active,
+   &:focus { 
+    background-color: $color-text-discount;
+   } 
+}

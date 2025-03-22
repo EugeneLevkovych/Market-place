@@ -1,10 +1,13 @@
+// Base
+@import url('./scss/base/base.scss');
+@import url('./scss/base/container.scss');
+@import url('./scss/base/reset.scss');
+@import url('./scss/base/typography.scss');
 
-//  Common styles 
-@import url('./scss/reset.scss');
-@import url('./scss/base.scss');
-@import url('./scss/container.scss');
-@import url('./scss/animations.scss');
-@import url('./scss/variables.scss');
+//abstracts
+@import url('./scss/abstracts/mixins.scss');
+@import url('./scss/abstracts/variables.scss');
+
 
 // components
 @import url('./scss/components/heading.scss');

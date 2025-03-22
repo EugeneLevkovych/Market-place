@@ -1,0 +1,11 @@
+@import '../abstracts/variables.scss';
+.link-text {
+    &:hover {
+        color:$color-blue;
+    }
+
+    &:active,
+    &:focus { 
+     color: $color-blue-hover;
+    } 
+}

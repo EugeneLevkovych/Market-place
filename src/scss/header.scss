@@ -1,4 +1,5 @@
-@import './variables.scss';
+@import './abstracts/variables.scss';
+@import './abstracts/mixins.scss';
 
 .header-container {
     display: flex;
@@ -37,11 +38,9 @@
         background-color: $color-blue;
         border-radius: 50%;
         transition: all .3s;
-
-        &:hover,
-        &:active {
-            background-color: $color-text-discount;
-        }
+        
+        @include hover;
+        @include active-focus;   
     }
 
     &__bag-icon {

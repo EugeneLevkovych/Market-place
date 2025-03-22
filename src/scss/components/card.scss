@@ -1,4 +1,4 @@
-@import '../variables.scss';
+@import '../abstracts/variables.scss';
 
 .card {
   width: calc((100% - 8rem) / 3);
@@ -19,7 +19,7 @@
         padding: 1rem 0;
         width: 5.1rem;
         height: 4rem;
-        background-color: rgba(235, 49, 49, 0.1);
+        background-color: $color-text-discount-light;
         text-align: center;
         font-weight: 500;
         font-size: 1.3rem;

@@ -1,4 +1,6 @@
-@import '../variables.scss';
+@import '../abstracts/variables.scss';
+@import '../abstracts/mixins.scss';
+
 .button-buy {
     padding: 1.4rem 0;
     background-color: $color-blue;
@@ -11,8 +13,6 @@
     border: none;
     transition: all .3s;
 
-    &:hover,
-    &:active {
-        background-color: $color-blue-hover;
-    }
+    @include hover;
+    @include active-focus;
 }

@@ -1,4 +1,6 @@
-@import '../variables.scss';
+@import '../abstracts/variables.scss';
+@import '../abstracts/mixins.scss';
+
 .button-add {
         font-weight: 500;
         font-size: $default-font-size;
@@ -11,9 +13,6 @@
         background-color: transparent;
         transition: all .3s;
 
-        &:hover,
-        &:active {
-            background-color: $color-text-discount;
-        }
-
+        @include hover;
+        @include active-focus;
        }
