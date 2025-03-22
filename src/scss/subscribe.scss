@@ -10,14 +10,15 @@
     }
 
     &__heading {
+        font-family: "Heldane Display", sans-serif;
         font-weight: 400;
         font-size: 5rem;
         line-height: 1.4;
-        text-align: center;
-       
+        text-align: center; 
     }
 
     &__text {
+        font-family: "DM Sans", sans-serif;
         font-weight: 400;
         font-size: 20px;
         line-height: 1.5;
@@ -50,6 +51,7 @@
         }
 
         &::placeholder {
+            font-family: "DM Sans", sans-serif;
             font-weight: 400;
             font-size: $default-font-size;
             line-height: 1.87;
@@ -68,6 +70,7 @@
         background-color: $color-blue;
         color: $color-white-1;
         border: none;
+        font-family: "DM Sans", sans-serif;
         font-weight: 500;
         font-size: $default-font-size;
         line-height: 2;
