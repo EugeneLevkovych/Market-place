@@ -12,12 +12,12 @@
 
 @mixin link-hover-active-focus {
     &:hover {
-        color:$color-blue;
+        color:$color-blue-hover;
     }
 
     &:active,
     &:focus { 
-     color: $color-blue-hover;
+     color: $color-text-discount;
     }
 }
 
