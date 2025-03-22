@@ -1,12 +1,23 @@
-@mixin hover {   
+@mixin hover-active-focus  {   
     &:hover {
         background-color:$color-blue-hover;
     }
+
+    &:active,
+    &:focus { 
+     background-color: $color-text-discount;
+    } 
 }
 
-@mixin active-focus {
-   &:active,
-   &:focus { 
-    background-color: $color-text-discount;
-   } 
+
+@mixin link-hover-active-focus {
+    &:hover {
+        color:$color-blue;
+    }
+
+    &:active,
+    &:focus { 
+     color: $color-blue-hover;
+    }
 }
+

@@ -24,6 +24,10 @@
     display: flex;
     gap: 6rem;
   }
+
+    &__link {
+     @include link-hover-active-focus;
+    }
 }
   .shopping {
     display: flex;
@@ -39,8 +43,7 @@
         border-radius: 50%;
         transition: all .3s;
         
-        @include hover;
-        @include active-focus;   
+        @include hover-active-focus; 
     }
 
     &__bag-icon {

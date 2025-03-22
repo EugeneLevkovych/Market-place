@@ -23,11 +23,12 @@
         margin-bottom: 2.5rem;
     }
 
-    &__text {
+    &__link {
         font-weight: 400;
         font-size: 1.6rem;
         line-height: 1.87;
         color: rgba(20, 20, 20, 0.9);
+        @include link-hover-active-focus;
     }
 
     &__link-box {
@@ -50,8 +51,7 @@
         border-radius: 50%;
         transition: all .3s;
 
-        @include hover;
-        @include active-focus; 
+        @include hover-active-focus; 
     }
 
 

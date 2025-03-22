@@ -13,6 +13,6 @@
     border: none;
     transition: all .3s;
 
-    @include hover;
-    @include active-focus;
+    @include hover-active-focus;
+    
 }
