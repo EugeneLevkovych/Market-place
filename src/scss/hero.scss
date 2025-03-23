@@ -15,21 +15,19 @@
 }
 
 .hero-heading {
+    font-family: "Heldane Display", sans-serif;
+    font-weight: 500;
+    font-size: 6.4rem;
+    line-height: 1.25;
+    color:$color-text-1;
+    margin-bottom: 2.4rem;
+
+    &__span {
+    display: block;
     font-weight: 700;
     font-size: $default-font-size;
     line-height: 2.5;
     color: $color-text-1;
     margin-bottom: 2.4rem;
-
-      &__span {
-        display: block;
-        width: 30.9rem;
-        height: 16rem;
-        font-family: "Heldane Display", sans-serif;
-        font-weight: 500;
-        font-size: 6.4rem;
-        line-height: 1.25;
-        color:$color-text-1;
-        margin-bottom: 2.4rem;
-    }
+    }    
 }
