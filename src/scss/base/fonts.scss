@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    font-family: 'Moderat';
+    src: url("../../assets/fonts/Moderat-Medium.woff") format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'Heldane Display';
     src: url("../../assets/fonts/Heldane-Display-regular.woff2") format('woff2');
     font-weight: 400;
