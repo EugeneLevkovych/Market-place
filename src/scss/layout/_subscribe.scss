@@ -1,10 +1,10 @@
-@import './abstracts/variables.scss';
+@use '../abstracts/variables';
 .section-subscribe {
-    color: $color-white-1;
+    color: variables.$color-white-1;
     margin-bottom: 10rem;
 
     &__container {
-        background-color: $color-blue;
+        background-color: variables.$color-blue;
         padding: 9.8rem 0;
         border-radius: 2rem;
     }
@@ -42,20 +42,20 @@
 
         &:focus {
             outline: none;
-            border: 3px solid $color-green;
+            border: 3px solid variables.$color-green;
         }
 
         &:focus:invalid {
-            border: 3px solid $color-text-discount;
+            border: 3px solid variables.$color-text-discount;
 
         }
 
         &::placeholder {
             font-family: "DM Sans", sans-serif;
             font-weight: 400;
-            font-size: $default-font-size;
+            font-size: variables.$default-font-size;
             line-height: 1.87;
-            color: $color-text-5;
+            color: variables.$color-text-5;
         }
     }
 
@@ -67,18 +67,18 @@
         border-radius: 10rem;
         width: 15rem;
         height: 6rem;
-        background-color: $color-blue;
-        color: $color-white-1;
+        background-color: variables.$color-blue;
+        color: variables.$color-white-1;
         border: none;
         font-family: "DM Sans", sans-serif;
         font-weight: 500;
-        font-size: $default-font-size;
+        font-size: variables.$default-font-size;
         line-height: 2;
         transition: all .3s;
         
         &:hover,
         &:active {
-            background-color: $color-blue-hover;
+            background-color: variables.$color-blue-hover;
         }
     }
 }

@@ -1,4 +1,4 @@
-@import './abstracts/variables.scss';
+@use '../abstracts/variables';
 
 .section-hero {
     height: 70rem;
@@ -18,16 +18,16 @@
         font-weight: 500;
         font-size: 6.4rem;
         line-height: 1.25;
-        color:$color-text-1;
+        color: variables.$color-text-1;
         margin-bottom: 2.4rem;      
     }
 
     &__span {
         display: block;
         font-weight: 700;
-        font-size: $default-font-size;
+        font-size: variables.$default-font-size;
         line-height: 2.5;
-        color: $color-text-1;
+        color: variables.$color-text-1;
         margin-bottom: 2.4rem;
         }
         

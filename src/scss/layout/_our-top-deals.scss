@@ -1,6 +1,6 @@
-@import './abstracts/variables.scss';
+@use'../abstracts/variables';
 .section-our-top-deals {
-    background-color: $color-white-1;
+    background-color: variables.$color-white-1;
     &__list {
         display: flex;
         gap: 4rem;

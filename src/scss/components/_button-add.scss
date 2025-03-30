@@ -1,18 +1,18 @@
-@import '../abstracts/variables.scss';
-@import '../abstracts/mixins.scss';
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
 
 .button-add {
         font-family: "Moderat Regular";
         font-weight: 500;
-        font-size: $default-font-size;
+        font-size: variables.$default-font-size;
         line-height: 2;
         text-align: center;
-        color: $color-text-4;
+        color: variables.$color-text-4;
         padding: 1.4rem 0;
         border-radius: 0.8rem;
         border: none;
         background-color: transparent;
-        @include transition;
+        @include mixins.transition;
 
-        @include hover-active-focus;
+        @include mixins.hover-active-focus;
        }

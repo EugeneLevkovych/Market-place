@@ -1,0 +1,25 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.heading {
+    background-color: variables.$color-white-2;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4.5rem 0; 
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: variables.$default-font-size;
+        line-height: 1.5;
+        color: variables.$color-text-2;
+        &--2 {
+           @include mixins.transition;
+            @include mixins.link-hover-active-focus;
+        }
+    }
+ 
+}
+

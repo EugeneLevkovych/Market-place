@@ -1,0 +1,19 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.button-buy {
+    padding: 1.4rem 0;
+    background-color: variables.$color-blue;
+    border-radius: 0.8rem;
+    font-family: "Moderat Regular";
+    font-weight: 500;
+    font-size: variables.$default-font-size;
+    line-height: 2;
+    text-align: center;
+    color: variables.$color-white-1;
+    border: none;
+    @include mixins.transition;
+
+    @include mixins.hover-active-focus;
+    
+}

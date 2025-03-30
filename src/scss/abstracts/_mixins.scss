@@ -1,23 +1,25 @@
+@use '../abstracts/variables';
+
 @mixin hover-active-focus  {   
     &:hover {
-        background-color:$color-blue-hover;
+        background-color: variables.$color-blue-hover;
     }
 
     &:active,
     &:focus { 
-     background-color: $color-text-discount;
+     background-color: variables.$color-text-discount;
     } 
 }
 
 
 @mixin link-hover-active-focus {
     &:hover {
-        color:$color-blue-hover;
+        color: variables.$color-blue-hover;
     }
 
     &:active,
     &:focus { 
-     color: $color-text-discount;
+     color: variables.$color-text-discount;
     }
 }
 

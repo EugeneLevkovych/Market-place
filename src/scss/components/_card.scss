@@ -1,11 +1,12 @@
-@import '../abstracts/variables.scss';
-@import '../abstracts/mixins.scss';
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+@use 'sass:color';
 
 .card {
   width: calc((100% - 8rem) / 3);
   padding: 2rem 2.4rem;
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.08);
-  background-color: $color-white-1;
+  background-color: variables.$color-white-1;
   border-radius: 2rem;
 
 
@@ -20,12 +21,12 @@
         padding: 1rem 0;
         width: 5.1rem;
         height: 4rem;
-        background-color: $color-text-discount-light;
+        background-color: variables.$color-text-discount-light;
         text-align: center;
         font-weight: 500;
         font-size: 1.3rem;
         line-height: 1.53;
-        color: $color-text-discount;
+        color: variables.$color-text-discount;
     }
 
     &__img {
@@ -36,7 +37,7 @@
     }
 
     &__heart-box {
-        background-color: $color-blue-light;
+        background-color: variables.$color-blue-light;
         height: 4rem;
         width: 4rem;
         border-radius: 50%;
@@ -44,18 +45,18 @@
         padding: 1rem 0;
 
         &:hover {
-            background-color: darken($color-blue-light, 30%)
+            background-color: color.mix(black, variables.$color-blue-light, 30%);
         }
     }
 
    &__svg {
-        stroke: $color-blue;
+        stroke: variables.$color-blue;
         fill: transparent;
-        @include transition;
+        @include mixins.transition;
 
         &:active,
         &:focus {
-            fill: $color-text-discount;
+            fill: variables.$color-text-discount;
             stroke: transparent;
         } 
     }
@@ -71,19 +72,19 @@
         font-weight: 500;
         font-size: 1.3rem;
         line-height: 1.53;
-        color: $color-blue;
+        color: variables.$color-blue;
         padding: 1rem;
         text-align: center;
-        background-color: $color-blue-light;
-        @include transition;
+        background-color: variables.$color-blue-light;
+        @include mixins.transition;
 
         &:hover {
-            background-color: darken($color-blue-light, 30%)
+            background-color: color-mix(black,variables.$color-blue-light, 30%)
         }
 
         &:active,
         &:focus {
-            color: $color-text-discount;
+            color: variables.$color-text-discount;
         } 
     }
 
@@ -91,7 +92,7 @@
         font-weight: 700;
         font-size: 2rem;
         line-height: 2;
-        color: $color-text-1;
+        color: variables.$color-text-1;
     }
 
     &__name {
@@ -99,7 +100,7 @@
         font-weight: 400;
         font-size: 2.4rem;
         line-height: 1.33;
-        color: $color-text-3;
+        color: variables.$color-text-3;
         padding-bottom: 3rem;
     }
 
