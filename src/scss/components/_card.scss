@@ -79,7 +79,9 @@
         @include mixins.transition;
 
         &:hover {
-            background-color: color-mix(black,variables.$color-blue-light, 30%)
+           background-color: color.mix(black, variables.$color-blue-light, 30%);
+                       
+
         }
 
         &:active,
