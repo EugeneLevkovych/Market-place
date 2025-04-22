@@ -44,6 +44,7 @@
         text-align: center;
         padding: 1rem 0;
 
+        &:focus,
         &:hover {
             background-color: color.mix(black, variables.$color-blue-light, 30%);
         }
@@ -54,11 +55,10 @@
         fill: transparent;
         @include mixins.transition;
 
-        &:active,
-        &:focus {
+        &:active {
             fill: variables.$color-text-discount;
             stroke: transparent;
-        } 
+        }  
     }
 
     &__devices-box {
@@ -78,14 +78,12 @@
         background-color: variables.$color-blue-light;
         @include mixins.transition;
 
+        &:focus,
         &:hover {
-           background-color: color.mix(black, variables.$color-blue-light, 30%);
-                       
-
+           background-color: color.mix(black, variables.$color-blue-light, 30%);               
         }
 
-        &:active,
-        &:focus {
+        &:active {
             color: variables.$color-text-discount;
         } 
     }
